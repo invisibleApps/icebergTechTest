@@ -18,7 +18,7 @@ For additional points you can add additional options of coffee types (americano,
 
 ===
 
-Me Coffee Machine REST API
+My coffee machine REST API
 
 POST /addwater       - Add water in the machine whith given input value
 POST /addmilk        - Add milk in the machine whith given input value

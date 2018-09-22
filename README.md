@@ -25,7 +25,5 @@ POST /addmilk        - Add milk in the machine whith given input value
 POST /addbeans 	     - Add coffee beans int the machine whith given input value  
 GET  /parameters     - Get current values of all parameters of the coffee machine  
 GET  /status         - Get the current status of the coffee machine  
-POST /capuchino      - Make capuchino  
-POST /espresso       - Make espresso  
-POST /americano      - Make americano  
+POST /makecoffee     - Make coffee. Type is input value   
 POST /clean          - Cleaning the coffee machine  

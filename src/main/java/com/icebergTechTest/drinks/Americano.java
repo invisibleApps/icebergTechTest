@@ -2,9 +2,9 @@ package com.icebergTechTest.drinks;
 
 public class Americano implements CoffeeDrink {
 
-    private final int water = 200;
-    private final int milk = 0;
-    private final int coffeeBeans = 20;
+    private int water = 200;
+    private int milk = 0;
+    private int coffeeBeans = 20;
 
     @Override
     public int getWater() {

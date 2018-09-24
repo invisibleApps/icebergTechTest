@@ -2,9 +2,9 @@ package com.icebergTechTest.drinks;
 
 public class Capuchino implements CoffeeDrink {
 
-    private final int water = 150;
-    private final int milk = 100;
-    private final int coffeeBeans = 15;
+    private int water = 150;
+    private int milk = 100;
+    private int coffeeBeans = 15;
 
     @Override
     public int getWater() {

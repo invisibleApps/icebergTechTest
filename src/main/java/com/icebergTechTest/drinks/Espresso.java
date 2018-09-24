@@ -2,9 +2,9 @@ package com.icebergTechTest.drinks;
 
 public class Espresso implements CoffeeDrink{
 
-    private final int water = 35;
-    private final int milk = 0;
-    private final int coffeeBeans = 10;
+    private int water = 35;
+    private int milk = 0;
+    private int coffeeBeans = 10;
 
     @Override
     public int getWater() {
